@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Load the machine learning model and encode
-model = joblib.load('model_churnNoPipeline.pkl')
+model = joblib.load('model.pkl')
 impute_stats=joblib.load('impute_stats.pkl')
 ordinal_encode_subs=joblib.load('ordinal_encode_subs.pkl')
 ordinal_encode_cont=joblib.load('ordinal_encode_cont.pkl')
