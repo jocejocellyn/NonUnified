@@ -4,10 +4,10 @@ import numpy as np
 import pandas as pd
 
 # Load the machine learning model and encode
-model = joblib.load('artifacts/model_churnNoPipeline.pkl')
-impute_stats=joblib.load('artifacts/impute_stats.pkl')
-ordinal_encode_subs=joblib.load('artifacts/ordinal_encode_subs.pkl')
-ordinal_encode_cont=joblib.load('artifacts/ordinal_encode_cont.pkl')
+model = joblib.load('model_churnNoPipeline.pkl')
+impute_stats=joblib.load('impute_stats.pkl')
+ordinal_encode_subs=joblib.load('ordinal_encode_subs.pkl')
+ordinal_encode_cont=joblib.load('ordinal_encode_cont.pkl')
 
 
 def main():
